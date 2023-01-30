@@ -1,8 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-import 
+$grid: 8px;
+$grid-icon: $grid * $grid;
+$grid_2x: $grid * 2;
+$grid_3x: $grid * 3;
+
+
 html,
 body {
   padding: 0;

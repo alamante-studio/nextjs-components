@@ -1,0 +1,38 @@
+$global_card_width_ratio: 16;
+$global_card_height_ratio: 9;
+
+$card-xs: 2;
+$card-s: 3;
+$card-m: 4;
+$card-l: 5;
+$card-xl: 6;
+
+$card_xs_width: $global_card_width_ratio * $card-xs;
+$card_xs_height: $global_card_height_ratio * $card-xs;
+
+$card_s_width: $global_card_width_ratio * $card-s;
+$card_s_height: $global_card_height_ratio * $card-s;
+
+$card_m_width: $global_card_width_ratio * $card-m;
+$card_m_height: $global_card_height_ratio * $card-m;
+
+.card-xs {
+  width: $card_xs_width;
+  height: $card_xs_height;
+}
+.card-s {
+  width: $card_xs_width;
+  height: $card_xs_height;
+}
+.card-m {
+  width: $card_xs_width;
+  height: $card_xs_height;
+}
+.card-l {
+  width: $card_xs_width;
+  height: $card_xs_height;
+}
+.card-xl {
+  width: $card_xs_width;
+  height: $card_xs_height;
+}
