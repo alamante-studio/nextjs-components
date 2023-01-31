@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import LayoutOne from '../layouts/Layout-1';
 
 export default function Home() {
   return (
@@ -130,6 +131,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* COMPONENTS-OPEN */}
+        <LayoutOne />
+        {/* COMPONENTS-CLOSE */}
       </main>
 
       <footer className="flex">
